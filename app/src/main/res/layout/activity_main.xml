@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.githubly.mhviewpager.widget.MHViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2018年9月4日，一个低压区在国际换日线以西海域形成，美国海军研究实验室给予热带扰动编号99W。一开始非常瘦弱，所以，联合台风警报中心给予评级“低”，并于同日晚上给予评级“中”。但它还是非常争气的，第3天联合台风警报中心将评级提升为“高”，并发布热带气旋形成警报，更于同日上午11时将其升格为热带低压，给予热带气旋编号26W。直到2018年9月7日8时，日本气象厅将其升格为热带低压，并在同日下午12时05分对其发布烈风警报。晚间9时15分，日本气象厅将其升格为热带风暴，给予国际编号1822，并命名为山竹，这样我们的“山竹”就出生了。"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>
